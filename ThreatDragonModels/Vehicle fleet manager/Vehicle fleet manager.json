@@ -45,16 +45,16 @@
           },
           {
             "position": {
-              "x": 429.9999999999998,
+              "x": 440,
               "y": 100
             },
             "size": {
-              "width": 500,
+              "width": 570,
               "height": 320
             },
             "attrs": {
               "label": {
-                "text": "Pu"
+                "text": "Public Cloud"
               }
             },
             "visible": true,
@@ -75,7 +75,7 @@
               "y": 210
             },
             "size": {
-              "width": 250,
+              "width": 300,
               "height": 180
             },
             "attrs": {
@@ -692,11 +692,11 @@
           },
           {
             "position": {
-              "x": 787,
-              "y": 305
+              "x": 800,
+              "y": 320
             },
             "size": {
-              "width": 60,
+              "width": 80,
               "height": 60
             },
             "attrs": {
@@ -811,8 +811,8 @@
           },
           {
             "position": {
-              "x": 787,
-              "y": 230
+              "x": 800,
+              "y": 245
             },
             "size": {
               "width": 60,
@@ -1014,8 +1014,8 @@
             ],
             "id": "20bd1627-5ed5-4905-a0f8-f7acaa70f2ab",
             "source": {
-              "x": 727,
-              "y": 330
+              "x": 737,
+              "y": 340
             },
             "target": {
               "cell": "a06aaad9-7141-4d94-8bd5-bfe08d907b08",
@@ -1190,8 +1190,8 @@
             ],
             "id": "25928ece-bd26-4188-869f-84527cadc9a4",
             "source": {
-              "x": 727,
-              "y": 330
+              "x": 737,
+              "y": 340
             },
             "target": {
               "cell": "794e4fd1-1623-4388-8db1-0dd4c9676075",
