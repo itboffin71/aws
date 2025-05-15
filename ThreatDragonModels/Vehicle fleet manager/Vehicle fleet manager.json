@@ -71,6 +71,39 @@
           },
           {
             "position": {
+              "x": 640.9999999999998,
+              "y": 210
+            },
+            "size": {
+              "width": 250,
+              "height": 180
+            },
+            "attrs": {
+              "label": {
+                "text": "Vehicle Registration"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "202d44bc-88dc-4820-a887-f84441666e98",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Vehicle Registration",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
+          },
+          {
+            "position": {
               "x": 171,
               "y": 150
             },
@@ -666,7 +699,7 @@
           },
           {
             "position": {
-              "x": 807,
+              "x": 787,
               "y": 305
             },
             "size": {
@@ -785,8 +818,8 @@
           },
           {
             "position": {
-              "x": 777,
-              "y": 220.00000000000094
+              "x": 787,
+              "y": 230
             },
             "size": {
               "width": 60,
