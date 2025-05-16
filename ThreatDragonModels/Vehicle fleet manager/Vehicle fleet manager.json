@@ -41,13 +41,6 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -74,6 +67,13 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -216,7 +216,7 @@
               "hasOpenThreats": false,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
-              "isWebApplication": false,
+              "isWebApplication": true,
               "privilegeLevel": "",
               "threats": []
             }
@@ -335,7 +335,7 @@
               "hasOpenThreats": false,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
-              "isWebApplication": false,
+              "isWebApplication": true,
               "privilegeLevel": "",
               "threats": []
             }
@@ -356,7 +356,7 @@
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
-                "strokeDasharray": null
+                "strokeDasharray": "4 3"
               }
             },
             "visible": true,
@@ -449,8 +449,8 @@
               "type": "tm.Process",
               "name": "Amazon Cognito",
               "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
+              "outOfScope": true,
+              "reasonOutOfScope": "Trusted source",
               "hasOpenThreats": false,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
@@ -594,7 +594,7 @@
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
-                "strokeDasharray": null
+                "strokeDasharray": "4 3"
               }
             },
             "visible": true,
@@ -687,7 +687,7 @@
               "type": "tm.Process",
               "name": "Lambda function",
               "description": "",
-              "outOfScope": false,
+              "outOfScope": true,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "handlesCardPayment": false,
@@ -968,6 +968,51 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "8420fd3b-f4e5-4530-a76c-2f9d6c0db9a6",
+            "source": {
+              "cell": "f4f1bb3f-525a-4351-a598-fe2547b81829",
+              "port": "02037560-fb6b-4a1e-a7a3-acc82c505ada"
+            },
+            "target": {
+              "x": 710,
+              "y": 310
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 70,
               "y": 80
@@ -1199,10 +1244,10 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isALog": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isSigned": false,
               "storesCredentials": false,
-              "storesInventory": false,
+              "storesInventory": true,
               "threats": []
             }
           },
@@ -1321,8 +1366,8 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isALog": false,
-              "isEncrypted": false,
+              "isALog": true,
+              "isEncrypted": true,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
